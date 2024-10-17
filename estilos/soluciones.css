@@ -1,0 +1,230 @@
+.navegacion{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.navegacion--nav{
+    display: flex;
+}
+
+.navegacion--nav > a {
+    font-size: 1.2em;
+}
+.navegacion--nav > a:hover {
+    color: orange;
+}
+
+.navegacion--nav > span {
+    color: grey;
+}
+
+.navegacion--nav > a:first-child:hover{
+    color: red;
+}
+
+
+
+/************
+    CAJAS
+*************/
+.cajas{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#cr{
+    align-self: start;
+    color: red;
+}
+
+.caja-contenedor {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.caja-img-contenedor{
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.caja-img {
+    width: 570px;
+}
+
+.caja-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 600px;
+}
+
+.caja--titulo, .caja--descrip > strong, .caja-caracteristica--titulo {
+    color: red;
+}
+
+.caja-caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.caja-caracteristica-contenedor {
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+.caja-caracteristica--descrip::before {
+    content: "> ";
+    font-weight: bold;
+}
+
+.cajas .btn-3 {
+    background-color: red;
+    align-self: center;
+    padding: 18px 26px;
+}
+
+
+
+/****************
+    POS ORIÓN
+*****************/
+.software{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#pos{
+    align-self: start;
+    color: orange;
+}
+
+.software-contenedor {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.software-img-contenedor{
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.software-img {
+    width: 570px;
+}
+
+.software-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 600px;
+}
+
+.software--titulo, .software--descrip > strong, .software-caracteristica--titulo {
+    color: orange;
+}
+
+.software-caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.software-caracteristica-contenedor {
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+.software-caracteristica--descrip::before {
+    content: "> ";
+    font-weight: bold;
+}
+
+.software .btn-3 {
+    background-color: orange;
+    align-self: center;
+    padding: 18px 26px;
+}
+
+
+
+/********************************
+    PERIFÉRICOS Y SUMINISTROS
+********************************/
+.perifericos-suministros{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#perifericos, #suministros{
+    align-self: start;
+    color: orange;
+}
+
+.perifericos-suministros-contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.perifericos-suministros-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.perifericos-suministros-img-contenedor {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.perifericos-suministros-img {
+    width: 370px;
+}
+
+.perifericos-suministros-titulo {
+    color: orange;
+}
+
+.btn-3:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

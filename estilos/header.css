@@ -1,0 +1,30 @@
+header{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    box-shadow: lightgrey 0px 10px 10px -10px;
+}
+
+.logo{
+    width: 90px;
+    vertical-align: middle;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-item {
+    color: black;
+    font-size: 1.4em;
+}
+
+.nav-item:hover{
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+}

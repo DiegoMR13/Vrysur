@@ -1,0 +1,209 @@
+/**********
+    HERO
+**********/
+.hero {
+    background-color: white;
+    background-image:
+        linear-gradient(to right,
+            rgba(54, 54, 54, 0.5),
+            rgba(54, 54, 54, 0.5)),
+        url(../img/hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    margin: 0;
+
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    width: 700px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero>div {
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+}
+
+
+/****************
+    PRODUCTOS
+*****************/
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 400px;
+    /*height: 400px;*/
+    border: 1.5px solid grey;
+    border-radius: 10px;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.tarjeta--img {
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    object-fit:contain;
+    border-radius: 10px 10px 0 0;
+    /* border-bottom: lightgray 1px solid; */
+    transition: all 0.5s;
+}
+
+.tarjeta--img:hover {
+    transform: scale(1.1);
+}
+
+.btn-3 {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.tarjeta--info {
+    width: 100%;
+    /* height: 230px; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.tarjeta--titulo-descrip {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tarjeta--titulo {
+    font-weight: 600;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+.tarjeta--descripcion {
+    margin-left: 2px;
+    overflow: hidden;
+}
+
+.tarjeta--btn {
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tarjeta--btn:hover {}
+
+
+/****************
+    BENEFICIOS
+*****************/
+.beneficios {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-top: 1px solid lightgrey;
+}
+
+.beneficios--titulo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.beneficios--titulo-container--titulo {}
+
+.beneficios--titulo-container--descrip {
+    width: 80%;
+    text-align: center;
+}
+
+.beneficios--item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.beneficios--item {
+    width: 600px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.beneficios--item-info--titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+
+
+/***************
+    CLIENTES
+****************/
+.clientes {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-top: 1px solid lightgrey;
+}
+
+.clientes--galeria {
+    width: 1200px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50% 50%;
+    overflow: hidden;
+}
+
+.foto-cliente {
+    width: 600px;
+    height: 450px;
+}
+
+.foto-cliente:hover {
+    transform: scale(1.1);
+}

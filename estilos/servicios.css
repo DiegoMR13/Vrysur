@@ -1,0 +1,48 @@
+.servicios {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.servicios > h1 {
+    margin-bottom: 50px ;
+}
+
+.servicio-contenedor {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.servicio-img-contenedor{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.servicio-img {
+    width: 370px;
+}
+
+.servicio-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.servicio--titulo {
+    color: orange;
+}
+
+.servicio--descrip {
+    font-size: 1.2em;
+    line-height: 30px;
+    
+}
